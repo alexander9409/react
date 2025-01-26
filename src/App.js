@@ -4,6 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <ToDoItems/>
+      <ToDoItems/>
+      <ToDoItems/>
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -15,10 +19,20 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Aprendamos React
         </a>
       </header>
     </div>
+  );
+}
+
+function ToDoItems(){
+  return (
+    <li>
+      <span>V</span>
+      <p>Llorar con la Llorona</p>
+      <span>X</span>
+    </li>
   );
 }
 
